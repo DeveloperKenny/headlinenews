@@ -21,9 +21,9 @@ async function fetchNews() {
     }
 }
 async function renderNews() {
-    let news = await fetchNews();
+    let newsA = await fetchNews();
     let html = '';
-        news.articles.forEach(news => {
+        newsA.articles.forEach(news => {
            
             const card = `
                             <div class="card mb-3">
