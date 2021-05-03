@@ -1,6 +1,6 @@
 const techHeadLines = document.querySelector('.tech-headlines');
 
-const url = `https://newsapi.org/v2/everything?q=apple&from=2021-05-01&to=2021-05-01&sortBy=popularity&apiKey=2ad84b91cec94e1e958c42a1265112f9`;
+const url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=apple&from=2021-05-01&to=2021-05-01&sortBy=popularity&apiKey=2ad84b91cec94e1e958c42a1265112f9`;
 
 async function fetchNews() {
     try {
